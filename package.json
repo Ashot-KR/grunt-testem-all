@@ -1,0 +1,48 @@
+{
+  "name": "grunt-testem-all",
+  "description": "The best Grunt plugin ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Ashot-KR/grunt-testem-all",
+  "author": {
+    "name": "Poluektov Dmitriy",
+    "email": "dmitry.a@k-r-w.ru"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Ashot-KR/grunt-testem-all.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ashot-KR/grunt-testem-all/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Ashot-KR/grunt-testem-all/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "files": [
+    "tasks",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "keywords": [
+    "gruntplugin",
+    "testem",
+    "testem.js",
+    "javascript testing"
+  ],
+  "dependencies": {
+    "testem": "^0.9.0"
+  }
+}
