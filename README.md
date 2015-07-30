@@ -106,5 +106,5 @@ grunt.initConfig({
 Run task
 ```
 grunt testem:component // run component target in dev mode
-grunt testem:component:anotherComponent --ci // run anotherComponent target in ci mode
+grunt testem:anotherComponent --ci // run anotherComponent target in ci mode
 ```
