@@ -1,6 +1,6 @@
 {
   "name": "grunt-testem-all",
-  "description": "Grunt tast for testem.js",
+  "description": "Grunt task for testem.js",
   "version": "0.2.0",
   "homepage": "https://github.com/Ashot-KR/grunt-testem-all",
   "author": {
