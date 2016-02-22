@@ -1,6 +1,6 @@
 {
   "name": "grunt-testem-all",
-  "description": "The best Grunt plugin ever.",
+  "description": "Grunt tast for testem.js",
   "version": "0.1.0",
   "homepage": "https://github.com/Ashot-KR/grunt-testem-all",
   "author": {
@@ -14,12 +14,10 @@
   "bugs": {
     "url": "https://github.com/Ashot-KR/grunt-testem-all/issues"
   },
-  "licenses": [
-    {
+  "license": {
       "type": "MIT",
       "url": "https://github.com/Ashot-KR/grunt-testem-all/blob/master/LICENSE"
-    }
-  ],
+  },
   "engines": {
     "node": ">= 0.8.0"
   },
@@ -43,6 +41,6 @@
     "javascript testing"
   ],
   "dependencies": {
-    "testem": "^0.9.0"
+    "testem": "^1.4.0"
   }
 }

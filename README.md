@@ -65,7 +65,7 @@ For example:
 testem: {
     options: {
         launch_in_dev: ["FireFox"],
-        post: 3333
+        port: 3333
     }
     ...
 }
@@ -85,20 +85,23 @@ grunt.initConfig({
             framework: 'mocha'
         },
     component: {
-        test_page: 'test/test_page.html',
-        src_files:[
-			'test/component.test.js'
-		]
+        options: {
+            test_page: 'test/test_page.html',
+            src_files:[
+                'test/component.test.js'
+            ]
+		}
     },
     anotherComponent: {
         // this options overrides global task options
         options: {
-            launch_in_dev: ["FireFox"]
-        },
-        test_page: 'test/another_test_page.html',
-        src_files:[
-			'test/anotherComponent.test.js'
-		]
+            launch_in_dev: ["FireFox"],
+
+            test_page: 'test/another_test_page.html',
+            src_files:[
+                'test/anotherComponent.test.js'
+            ]
+		}
     }
   }
 });
