@@ -1,7 +1,7 @@
 {
   "name": "grunt-testem-all",
   "description": "Grunt tast for testem.js",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/Ashot-KR/grunt-testem-all",
   "author": {
     "name": "Poluektov Dmitriy",
@@ -15,8 +15,8 @@
     "url": "https://github.com/Ashot-KR/grunt-testem-all/issues"
   },
   "license": {
-      "type": "MIT",
-      "url": "https://github.com/Ashot-KR/grunt-testem-all/blob/master/LICENSE"
+    "type": "MIT",
+    "url": "https://github.com/Ashot-KR/grunt-testem-all/blob/master/LICENSE"
   },
   "engines": {
     "node": ">= 0.8.0"
