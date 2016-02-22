@@ -1,7 +1,7 @@
 {
   "name": "grunt-testem-all",
   "description": "Grunt task for testem.js",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "homepage": "https://github.com/Ashot-KR/grunt-testem-all",
   "author": {
     "name": "Poluektov Dmitriy",
